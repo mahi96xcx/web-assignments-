@@ -1,0 +1,140 @@
+  	.button {
+  border-radius: 9px;
+  background-color: #debb95;
+  border: none;
+  color: #ff2626;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  height:60px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.btn-group .button {
+  background-color: #de9595;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}.btn-group .button:hover {
+  background-color: #bd3ccf;
+}
+*{
+	padding:0;
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	width:100%;
+	height: 100px;
+	background-image: linear-gradient(to right, #a84523 , white);
+}
+
+.logo h3{
+	margin-top:10px;
+	margin-left: 25px;
+	width:180px;
+	height: 100px;
+	float:left;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+	
+	font-size: 30px;
+
+}
+
+
+.nav nav ul {
+	list-style: none;
+	margin-left: 25px;
+	padding-top: -20px;
+	padding-right: 20px;
+
+	
+
+
+
+}
+.nav nav ul li{
+	float: right;
+	padding-top: 30px;
+	font-size: 25px;
+	width:180px;
+	height: 30px;
+	line-height: 30px;
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+	margin-right: 50px;
+
+	
+
+}
+
+.carousel-item active {
+	padding-top: 200px;
+}
+
+.cate ul{
+	float:left;
+	list-style: none;
+	margin-left: 22%;
+	margin-top: 10px;
+}
+
+
+.cate ul li{
+	display: inline-block;
+	padding: -50px;
+	margin-left: 0px;
+	width:180px;
+	height:80px;
+	overflow:hidden;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+}
+
+.mar{
+	font-family: 'Russo One', sans-serif;
+	font-size: 30px;
+	background-color: #5186f0;
+
+}
+#grad {
+  background-image: linear-gradient(to bottom right, red, yellow);
